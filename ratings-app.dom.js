@@ -16,7 +16,6 @@
         if (selectedRating) {
 
             // store the rating for a selected waiter
-            
             // check if there is already a rating for the current waiter...?
             // if there is calculate the average & store the average
 
