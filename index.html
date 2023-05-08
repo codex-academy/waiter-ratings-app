@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="ratings-app.dom.js" defer="true" ></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Waiter rating app</h1>
+        
+        <div>
+            <h2>Rate waiter</h2>
+            <input type="text" class="waiterName">
+            
+            <input type="radio" value="1" class="rating" name="rating" > 1
+            <input type="radio" value="2" class="rating" name="rating" > 2
+            <input type="radio" value="3" class="rating" name="rating" > 3
+            <input type="radio" value="4" class="rating" name="rating" > 4
+            <input type="radio" value="5" class="rating" name="rating" > 5
+            
+            <input type="button" value="Rate waiter" class="rateWaiter" >
+            <div>
+                <span class="message" >Thanks for rating a waiter</span>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Get waiter rating</h2>
+            <div class="">
+                <input type="text" class="waiterNameLookup">
+                <input type="button" value="Get rating" class="getRating">
+            </div>
+            <div class="mt1">
+                <strong>Current rating</strong> 
+                <span class="currentRating selected" >this is the rating</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

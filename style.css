@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    width: 960px;
+    margin: auto;
+    border: 1px solid;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+.message {
+    color: darkgreen
+}
+
+.mt1 {
+    margin-top: 1em;
+}
+
+.selected {
+    background-color: lightseagreen;
+}
